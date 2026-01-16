@@ -1,0 +1,17 @@
+Python Programming Guide
+
+Python is a high-level, interpreted programming language known for its simplicity and readability.
+
+Key Features:
+- Easy to learn and use
+- Extensive standard library
+- Large community support
+- Cross-platform compatibility
+
+Popular Applications:
+1. Web Development (Django, Flask)
+2. Data Science (NumPy, Pandas)
+3. Machine Learning (TensorFlow, PyTorch)
+4. Automation and Scripting
+
+Python follows the philosophy of "There should be one-- and preferably only one --obvious way to do it."

@@ -17,3 +17,20 @@ class QueryResponse(BaseModel):
     answer: str | None = None
     retrieved_chunks: list[dict] | None = None
 
+class FileUploadResponse(BaseModel):
+    status: str
+    message: str
+    filename: str
+    chunks_created: int
+
+class FileInfo(BaseModel):
+    filename: str
+    file_type: str
+    upload_date: str
+    chunk_count: int
+
+class FileListResponse(BaseModel):
+    status: str
+    tenant_id: str
+    files: list[FileInfo]
+

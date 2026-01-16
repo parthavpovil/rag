@@ -1,6 +1,13 @@
 fastapi
 uvicorn
 pydantic
-qdrant-client
+supabase>=2.0.0
 sentence-transformers
 openai
+python-multipart
+PyPDF2
+pdfplumber
+python-docx
+markdown
+boto3
+python-dotenv
