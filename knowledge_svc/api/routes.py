@@ -178,7 +178,7 @@ async def process_s3_document(
     
     try:
         # Import S3 client
-        from ..services import s3_client
+        from services import s3_client
         
         # Download from S3
         file_bytes = s3_client.download_from_s3(s3_bucket, s3_key)
