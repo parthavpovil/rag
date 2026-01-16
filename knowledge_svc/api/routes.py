@@ -1,11 +1,11 @@
 from fastapi import APIRouter, UploadFile, File, Form
 from typing import List
 from datetime import datetime
-from .models import (
+from api.models import (
     UploadRequest, UploadResponse, QueryRequest, QueryResponse,
     FileUploadResponse, FileListResponse
 )
-from ..services import vectordb, embedder, chunker, context_builder, llm, file_parser
+from services import vectordb, embedder, chunker, context_builder, llm, file_parser
 
 router = APIRouter()
 

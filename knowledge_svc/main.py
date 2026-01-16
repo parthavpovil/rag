@@ -14,15 +14,7 @@ for var in required_vars:
     print(f"  {var}: {'✅ Set' if value else '❌ Missing'}")
 
 from fastapi import FastAPI
-from .api.routes import router
-
-app = FastAPI(title="Knowledge Service", version="0.1.0")
-
-app.include_router(router)
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8005)
+from api.routes import router
 
 app = FastAPI(title="Knowledge Service", version="0.1.0")
 
